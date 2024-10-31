@@ -10,18 +10,63 @@
         content="драконы, мифика, существа, животные"> 
     </head>
 <body>
-  <h1>HOME PAGE</h1>
-  <a href="page2.html" target="_blank">Вперёд</a>
+<div>
+  <h1>РЕГИСТРАЦИЯ</h1>
+    <form name="signup" action="#" method="post">
+        <div>
+            <label>Введите логин:</label>
+            <input type="text" name="username" placeholder="До 32 гитлеров"/>
+        </div>
+        <div>
+            <label>Введите E-mail:</label>
+            <input type="email" name="email"/>
+        </div>
+        <div>
+            <label>Введите пароль:</label>
+            <input type="password" name="password"/>
+        </div>
+        <div>
+            <label>Укажите пол:</label>
+            <input type="radio" name="sex" value="0"/> Хай
+            <input type="radio" name="sex" value="1"/> Гитлер
+        </div>
+        <div>
+            <label>Я ознакомлен с правилами:</label>
+            <input type="checkbox" name="rules"/>
+        </div>
+        <div>
+            <label>Загрузите фото:</label>
+            <input type="file" name="avatar"/>
+        </div>
+        <div>
+            <label>Год рождения:</label>
+            <select name="year">
+                <option value="2001">2001</option>
+                <option value="2002">2002</option>
+                <option value="2003">2003</option>
+            </select>
+        </div>
+        <div>
+            <textarea placeholder="Введите зигхайль..."></textarea>
+        </div>
+
+        <input type="submit" name="signup" value="Зарегистрироваться"/>
+    </form>
+  <a href="page2.html">Вперёд</a>
   <p>Lorem ipsum dolor <b><i>sit amet consectetur</i></b> adipisicing elit. Beatae magnam repellat exercitationem nisi possimus laudantium!</p>
   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <u>laborum nulla unde optio architecto nesciunt?</u></p>
   <p><strong>Lorem</strong> ipsum dolor sit, amet consectetur adipisicing elit. <em>Deserunt</em>, deleniti possimus dolore laborum nesciunt perspiciatis natus nulla iste ex esse?</p>
-  <ol>
+</div>
+<div>
+<ol>
     <li>люблю пиццу</li>
     <li>люблю канаду</li>
   </ol>
   <ul>
     <li> а ещё я люблю печеньки</li>
   </ul>
+</div>
+<div>
 <table border="1" width="40%" height="50px">
     <tr>
         <td colspan="2" align="center">header</td>
@@ -35,7 +80,7 @@
         <td colspan="2" align="center">footer</td>
     </tr>
 </table>
-
+</div>
 
 
 
